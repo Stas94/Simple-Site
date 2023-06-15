@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.container {
+    width: 1116px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu-items {
+    font-size: 0;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin-right: 42px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    color: #34547A;
+}
+
+h1 {
+    margin-top: 139px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.first-screen {
+    height: 700px;
+    padding: 76px 6px 0 0;
+    background: #EEEFF1;
+}
+
+
+.first-screen a {
+    text-decoration: none;
+    color: #34547A;
+}
+
+
+.first-screen p {
+    width: 540px;
+    height: 67px;
+    margin: 34px 0 0 1px;
+    color: #727272;
+}
+
+button {
+    width: 225px;
+    height: 65px;
+    margin-top: 67px;
+    padding: 0 0 6px 1px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    background: #34547A;
+    cursor: pointer;
+}
+
+.about-me {
+    height: 147px;
+    margin: 112px auto 100px auto;
+}
+
+.about-me h2,
+.work h2 {
+    height: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.about-me p,
+.work p {
+    width: 539px;
+    height: 67px;
+    margin: 47px auto 59px auto;
+    text-align: center;
+    color: #727272;
+}
+
+.projects {
+    height: 250px;
+    background: #34547A;
+}
+
+.projects .projects-wrapper {
+    padding-top: 100px;
+    margin-left: 6px;
+}
+
+.projects-wrapper .project {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 132px;
+    background-image: url(../img/group.png);
+}
+
+.projects-wrapper .project:nth-child(2),
+.projects-wrapper .project:nth-child(3),
+.projects-wrapper .project:nth-child(4),
+.projects-wrapper .project:nth-child(5) {
+    margin-right: 136px;
+}
+
+.projects-wrapper .project:nth-child(6) {
+    margin-right: 0;
+}
+
+.projects h3 {
+    height: 19px;
+    padding: 2px 0 0 70px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.projects p {
+    padding: 10px 0 0 70px;
+    color: #FFFFFF;
+}
+
+.work {
+    height: 1004px;
+    padding: 100px 0 100px 0;
+    background: #EEEFF1;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    height: 151px;
+    background: #34547A;
+}
+
+footer .container h3 {
+    padding: 49px 0 0 4px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+footer .container p {
+    padding: 12px 0 0 4px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
